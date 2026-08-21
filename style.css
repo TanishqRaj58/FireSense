@@ -1,0 +1,45 @@
+/* ===== GLOBAL ===== */
+body {
+    background-color: #0b1220;
+    color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+}
+/* ===== TITLES ===== */
+h1, h2, h3 {
+    color: #00e5ff;
+}
+/* ===== SLIDERS ===== */
+.css-1d391kg {
+    background-color: #111827;
+    padding: 15px;
+    border-radius: 12px;
+}
+/* ===== METRIC CARDS ===== */
+div[data-testid="metric-container"] {
+    background-color: #111827;
+    border-radius: 14px;
+    padding: 15px;
+    box-shadow: 0 0 18px rgba(0,229,255,0.15);
+    text-align: center;
+}
+/* ===== STATUS COLORS ===== */
+.safe {
+    color: #00ff88;
+    font-weight: bold;
+}
+.warning {
+    color: #ffcc00;
+    font-weight: bold;
+}
+.critical {
+    color: #ff4b4b;
+    font-weight: bold;
+}
+/* ===== RIGHT PANEL ===== */
+.stAlert {
+    border-radius: 12px;
+}
+/* ===== PLOT BACKGROUND ===== */
+.js-plotly-plot {
+    background-color: #0b1220 !important;
+}
